@@ -23,7 +23,7 @@ class PostsController < ApplicationController
             flash[:success] = "The post was created!"
             redirect_to @post    
         else 
-             render ‘new’
+             render 'new'
         end 
     end
     
@@ -35,7 +35,7 @@ class PostsController < ApplicationController
             flash[:success] = "Update successful"
              redirect_to @post
         else
-             render ‘edit’
+             render 'edit'
         end
    end
 
