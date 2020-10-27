@@ -30,7 +30,10 @@ gem 'jquery-rails'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3.5'
-gem 'carrierwave'
+
+# Image uploader
+gem 'carrierwave', '~> 2.1'
+gem 'cloudinary'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
