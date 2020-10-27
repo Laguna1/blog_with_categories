@@ -1,0 +1,6 @@
+<h1>All Posts</h1>
+<% @posts.each do | post | %> 
+     <h3> <%= link_to "post.title", post%> </h3> 
+     <p> <%= post.content%> </p> 
+     <p> <%= image_tag post.image_url.to_s, alt: 'Image', class: 'img-responsive', height: 800, width: 400 %></p>
+<% end%>
